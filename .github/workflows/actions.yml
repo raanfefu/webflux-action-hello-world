@@ -31,7 +31,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: rfernandezo/action-hello-wold:1
+        tags: rfernandezo/action-hello-wold:${{ github.sha }}
           
     - run: |
         cat README.md
