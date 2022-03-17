@@ -31,7 +31,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: rfernandezo/action-hello-wold
+        tags: rfernandezo/action-hello-wold:1
           
     - run: |
         cat README.md
