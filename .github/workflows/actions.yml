@@ -32,7 +32,7 @@ jobs:
         context: .
         push: true
         tags: v1
-        labels: ${{ steps.meta.outputs.labels }}
+        labels: rfernandezo
           
     - run: |
         cat README.md
