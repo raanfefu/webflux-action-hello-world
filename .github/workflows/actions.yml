@@ -27,11 +27,11 @@ jobs:
         images: rfernandezo/action-hello-wold
 
     - name: Build and push Docker image
-      uses: docker/build-push-action@v1
+      uses: docker/build-push-action@v2
       with:
         context: .
         push: true
-        tags: rfernandezo/action-hello-wold:v1 
+        tags: rfernandezo/action-hello-wold@v1
           
     - run: |
         cat README.md
